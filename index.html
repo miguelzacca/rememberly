@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link
+      rel="icon"
+      href="./assets/images/remember-icon.png"
+      type="image/png"
+    />
+    <title>Rememberly</title>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="./src/main.js" defer></script>
+  </head>
+  <body>
+    <span id="empty-msg">No reminder</span>
+    <main>
+      <div id="display"></div>
+    </main>
+    <footer>
+      <form onsubmit="main(event)">
+        <input
+          type="text"
+          name="reminder"
+          autocomplete="off"
+          placeholder="Add reminder"
+          required
+        />
+        <button type="submit">
+          <img src="./assets/images/create-icon.png" alt="Create" />
+        </button>
+      </form>
+    </footer>
+  </body>
+</html>

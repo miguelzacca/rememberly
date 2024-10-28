@@ -1,0 +1,17 @@
+{
+  "name": "Rememberly",
+  "short_name": "rememberly",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000000",
+  "description": "The best tasks manager",
+  "icons": [
+    {
+      "src": "/assets/images/remember-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
